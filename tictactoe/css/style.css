@@ -1,0 +1,65 @@
+
+td {
+  text-align: center;
+	vertical-align: middle;
+  border: 4px solid yellow;
+  border-collapse: collapse;
+  width: 133px;
+  height: 133px;
+  
+    
+}
+
+table {
+  table-layout:fixed;
+  height: 100%;
+  margin-right:auto;
+  margin-left:auto;
+ 
+  
+}
+
+body {
+  background: #00004d;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:yellow;
+ 
+  font-family: 'Adamina';font-size: 20px;
+}
+    
+
+h1 {
+  padding:50px;
+    color:yellow;
+}
+
+h4 {
+  padding:20px;
+    font-family: 'Adamina';font-size: 20px;
+}
+
+.modal-content {
+  background:#0000ff;
+  background: rgba(0, 0, 255, .7);
+  color:#ffffff;
+  border-radius: 25px;
+}
+
+.modal {
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 25%;
+  width: 300px;
+  height: 300px;
+  margin:0 auto;
+  display:table;
+  
+}
+
+button {
+  background:#0066ff;
+  color:white
+  }
+

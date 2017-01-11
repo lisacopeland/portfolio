@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png");
+    background-color: #b3b3ff;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 200px;
+  
+}
+ 
+#myPageHeader {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color:black;
+    font-family: 'Antic Slab';font-size: 30px;
+}
+
+#titleText {
+    margin:auto;
+    width:100px;
+}
+
+.row {
+  padding:20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+ul li{
+  border: 1px #e6e6ff;
+  border-radius: 5px;
+  margin:10px;
+  padding: 5px;
+  border-left: 5px #e6e6ff;
+  background-color: #b3b3ff;
+  box-shadow: 10px 10px 5px #888888;
+  font-family: 'Antic Slab';
+  color: black;
+}
+

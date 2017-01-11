@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <link href='//fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+
+  <body>
+
+  <div class="outer-circle text-center container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="top-left" id="green"></div>
+      </div>
+      <div class="col-xs-6">
+        <div class="top-right" id="red"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="bottom-left" id="yellow"></div>
+      </div>
+      <div class="col-xs-6">
+        <div class="bottom-right" id="blue"></div>
+      </div>
+    </div>
+    <div class="inner-circle container">
+      <div class="row">
+        <h1>SIMON</h1>
+      </div>
+      <div class="row">
+        <div id="gameCount" class="col-xs-4">0
+        </div>
+        <div class="col-xs-4">
+          <button id="startButton" type="button"></button>
+        </div>
+        <div class="col-xs-4">
+          <button id="strictButton" type="button" class="btn-sm btn-warning"></button>
+        </div>
+      </div>
+      <div id="labelRow" class="row">
+        <div class="col-xs-4">Count
+        </div>
+        <div class="col-xs-4">
+          Start
+        </div>
+        <div class="col-xs-4">
+          Strict
+        </div>
+      </div>
+      <div id="display-bottom">	  		
+		  			<div  class="inline-div">off</div>
+		  			<div  class="inline-div" id="powerToggle">	 
+			  			<div id="toggle">	  				
+			  			</div>
+			  		</div>	
+		  			<div class="inline-div">on</div>	  		
+	  			</div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="text-left">Simon Game by lisacope@msn.com for FCC
+      <p>
+  </footer>
+  
+  <!-- GameInfo Modal --> 
+  <div class="modal fade" id="gameInfo" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body text-center">
+        <h4 id = "gameInfoTitle" class="modal-title text-center"></h4>
+        <h4 id="gameInfoText"></h4>  
+        <button id = "closeGameInfo" type="button" class="btn btn-md" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

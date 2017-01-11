@@ -1,0 +1,14 @@
+body
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:black;
+    font-family: 'Adamina';font-size: 22px;
+}
+
+.col-xs-12 {
+  padding-top:25px;
+  padding-bottom:5px;
+}
+

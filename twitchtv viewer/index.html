@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <title>TwitchTv Viewer</title>
+    <link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+  <body>
+
+  <div class="container">
+
+    <div class="row row-header">
+      <div class="col-xs-6 pageTitle">
+        Twitch TV
+      </div>
+      <div class="col-xs-2 col-xs-offset-3">
+        <form>
+          <label class="radio-inline">
+      <input id = "all-btn" type="radio" name="optradio" checked>All</label>
+          <label class="radio-inline">
+      <input id = "online-btn" type="radio" name="optradio">Online
+    </label>
+          <label class="radio-inline">
+      <input id = "offline-btn" type="radio" name="optradio">Offline
+    </label>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- List of channels -->
+  <div class="row channel-Row" id="channelList">
+  </div>
+  
+  <!-- Container -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

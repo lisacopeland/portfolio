@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+
+  <body>
+
+  <div class="container">
+    
+    <header>
+      <h2 class="text-center">Pomodoro Timer</h2>
+      <h3 id = "MotivMsg" class = "text-center">Stay Focused!</h3>
+    </header>
+    
+    <div>
+      <!-- This div for the countdown clock, defaulting to 25 minutes -->
+      <h2 id = "countDown" class="text-center">25:00</h2>
+     
+    </div>
+    
+    <div class="row">
+      <!-- This is div for the titles of set time buttons -->
+      <div class="col-xs-6">
+        <h3> Work Time <h3> 
+       </div>
+       <div class = "col-xs-6">
+       <h3> Break time <h3> 
+         </div>
+   </div>
+
+   <div class = "row"> <!-- This is div for the set time chevron buttons -->
+     <div class = "col-xs-6">
+       <p>
+      <button id = "chevLeftWorkTime" type="button" class="btn btn-sm">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+     </button>
+         <span id = "minutesOfWork">25:00</span>
+        <button id = "chevRightWorkTime" type="button" class="btn btn-sm">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+       </p>
+    </div>
+     
+    <div class="col-xs-6">
+      <p>
+      <button id = "chevLeftBreakTime" type="button" class="btn btn-sm">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+     </button>
+         <span id = "minutesOfBreak">5:00</span>
+        <button id = "chevRightBreakTime" type="button" class="btn btn-sm">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+       </p>
+    </div>
+         </div> <!-- End of the set time row -->
+    <div class = "row">  <!-- This is div for start, stop, and pause buttons -->
+      <div class="col-xs-6 col-xs-offset-3">
+        <button id = "startTime" type="button" class="btn btn-md">
+        <span class="glyphicon glyphicon-play"></span>
+        </button>
+        
+        <button id = "pauseTime" type="button" class="btn btn-md">
+        <span class="glyphicon glyphicon-pause"></span>
+        </button>
+      
+        <button id = "stopTime" type="button" class="btn btn-md">
+        <span class="glyphicon glyphicon-stop"></span>
+        </button>
+      </div>
+      
+    </div> <!-- End of the stereo button row -->
+         
+  </div> <!-- End of Container -->
+  <footer>
+     
+    <p class = "text-center">Pomodoro Clock by Lisa Copeland</p>
+  </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

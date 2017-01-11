@@ -1,0 +1,57 @@
+body { 
+    background-image:url("http://www.appsapk.com/wp-content/uploads/2012/12/2160x1920-HD-Wallpaper-AppsApk-190.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    font-family: 'Lora', serif;
+    }
+
+h1 {
+  padding-top:45px;
+}
+
+h2 {
+  padding-top:45px
+}
+
+.appBox {
+    height:265px
+}
+
+.appBox:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.navbar-inverse {
+  background: #303f9f;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+

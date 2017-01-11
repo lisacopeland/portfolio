@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe Final</title>
+    <link href='//fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+
+<body>
+ 
+    <div class = "container-fluid">
+  
+  <!-- Page header -->
+  <div class = "row">
+    <div class = "xs-col-12"> 
+   <h1 class = "text-center">Tic Tac Toe</h1>
+    </div>
+  </div>
+  
+   <div id = "Board" class = "row">
+    <div class = "xs-col-12">
+      <div>
+        <table>
+          <tr>
+            <td id = "topLeft">  </td>
+            <td id = "topMiddle">  </td>
+            <td id = "topRight">  </td>
+          </tr>
+          <tr>
+            <td id = "middleLeft">  </td>
+            <td id = "middleMiddle">  </td>
+            <td id = "middleRight">  </td>
+          </tr>
+          <tr>
+            <td id = "bottomLeft">  </td>
+            <td id = "bottomMiddle">  </td>
+            <td id = "bottomRight">  </td>
+          </tr>
+        </table>
+      </div> <!-- Table Responsive -->
+    </div> <!-- End of column -->
+  </div> <!-- End of Row --> 
+  
+  <!-- GameOver Modal --> 
+  <div class="modal fade" id="gameOver" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-body text-center">
+          <h4 id = "gameOverResult" class="modal-title text-center"></h4>
+          
+          <button id = "closeGameOver" type="button" class="btn btn-lg" data-dismiss="modal">Close</button>
+                   
+        </div>
+        
+        </div>
+      </div>
+      
+    </div>
+  
+   <!-- Player choice Modal --> 
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        
+        <div class="modal-body text-center">
+          <h4 class="modal-title text-center">You get to pick</h4>
+          <p>Do you wanna be X or O?</p>
+          <button id = "ChoseX" type="button" class="btn btn-lg" data-dismiss="modal">X</button>
+          
+          <button id = "ChoseO" type="button" class="btn btn-lg" data-dismiss="modal">O</button>
+        </div>
+        
+        </div>
+      </div>
+      
+    </div>
+  
+  </div> <!-- End of Container -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

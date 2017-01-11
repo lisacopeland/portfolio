@@ -1,0 +1,43 @@
+body {
+  background: url("http://www.zastavki.com/pictures/originals/2013/Animals___Birds_Bird_Hummingbird_041609_.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.page-buttons {
+  padding-top: 45px;
+}
+
+button {
+  box-shadow: 5px 5px 5px black;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 35px;
+  color: black;
+  padding: 50px;
+}
+
+.blockquote {
+  box-shadow: 10px 10px 5px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 30px;
+  border-radius: 25px;
+  background: rgba(51, 153, 255, .3);
+
+  font-size: large;
+  color: #003300;
+}
+
+.quote-text {
+  font-family: Times;
+}
+
+.author-text {
+  font-family: Times;
+  font-style: italic;
+}

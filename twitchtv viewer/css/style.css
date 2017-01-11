@@ -1,0 +1,63 @@
+@font-face {
+  font-family: twitch;
+  src: url(https://dl.dropbox.com/s/g8677huroc13mtl/DIMIS___.TTF?dl=0);
+}
+
+body {
+  background: black
+}
+
+.row-header {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.pageTitle {
+  font-family: twitch;
+  font-size: 25px;
+  text-align: left;
+  color: gray;
+}
+
+.radio-inline {
+  font-family: twitch;
+  background: black;
+  color: gray;
+}
+
+.channel-Row {
+  padding-left: 35px;
+}
+
+.dataSquare {
+  position: relative;
+  height: 335px;
+  width: 210px;
+  margin: 40px;
+  background-color: grey;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  transform: scale(1);
+}
+
+.dataSquare:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.channelImage {
+  width: 210px;
+  height: 180px;
+  border-bottom: 2px solid #000000;
+}
+
+.dataText {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="calculatorApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Calculator App</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="container" ng-controller="calculatorController as calcCtrl">
+        <div class="calcBox">
+            <h1 class="text-center">Casio</h1>
+
+            <!-- This is the sum box -->
+            <div class="row">
+                <div class="panel panel-default sumBox text-right">
+                    <div class="panel-body">
+                        {{calcCtrl.currDisplay}}
+                    </div>
+                </div>
+            </div>
+
+            <!-- First row of buttons -->
+            <div class="row btn-row">
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('A')" class="btn btn-default" id="AC-btn">AC</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('C')" class="btn btn-default" id="CE-btn">CE</button>
+                </div>
+                <div class="col-xs-3 col-xs-offset-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('/')" class="btn btn-default" id="fwdSlash-btn">/</button>
+                </div>
+
+            </div>
+
+            <!-- Second row of buttons -->
+            <div class="row btn-row">
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('7')" class="btn btn-default" id="7-btn">7</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('8')" class="btn btn-default" id="8-btn">8</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('9')" class="btn btn-default" id="9-btn">9</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('*')" class="btn btn-default" id="mult-btn">*</button>
+                </div>
+            </div>
+
+            <!-- Third row of buttons -->
+            <div class="row btn-row">
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('4')" class="btn btn-default" id="4-btn">4</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('5')" class="btn btn-default" id="5-btn">5</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('6')" class="btn btn-default" id="6-btn">6</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('-')" class="btn btn-default" id="minus-btn">-</button>
+                </div>
+            </div>
+
+            <!-- Fourth row of buttons -->
+            <div class="row btn-row">
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('1')" class="btn btn-default" id="1-btn">1</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('2')" class="btn btn-default" id="2-btn">2</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('3')" class="btn btn-default" id="3-btn">3</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('+')" class="btn btn-default" id="plus-btn">+</button>
+                </div>
+            </div>
+
+            <!-- Fifth row of buttons -->
+            <div class="row btn-row">
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('0')" class="btn btn-default" id="0-btn">0</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" ng-click="calcCtrl.keyPress('.')" class="btn btn-default" id="decimal-btn">.</button>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                    <button type="button" ng-click="calcCtrl.keyPress('=')" class="btn btn-default equal-btn" id="equal-btn">=</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>

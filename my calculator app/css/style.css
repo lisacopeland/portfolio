@@ -1,0 +1,51 @@
+h1 {
+color: #333333;
+font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: #ffcc99
+}
+
+button {
+  width: 70px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.equal-btn {
+  width: 140px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.btn-row {
+  height:60px;
+  
+}
+
+.sumBox {
+  color: white;
+  background: black;
+  width: 300px;
+    margin-left:50px;
+      border-radius: 10px;
+}
+
+.calcBox { 
+height: 475px;
+width: 400px; 
+padding: 20px;
+background-color: #4dffff; 
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px #888888;
+border-radius: 7px;
+
+/* gradients */
+  
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+  
+}

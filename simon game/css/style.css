@@ -1,0 +1,186 @@
+body {
+  background-image: url("http://www.easyfreepatterns.com/patterns/7/oak-wood-grain-seamless-background-tileable-or-wallpaper--7881.jpg");
+}
+
+p {
+  margin-left:10px;
+  padding-top:100px;
+}
+
+.bottom-right, .bottom-left, .top-right, .top-left {
+  position: static;
+  border: 15px solid black;
+  z-index: 1;
+  
+}
+
+.top-left {
+  border-radius: 250px 0 0 0;
+  height: 250px;
+  width: 250px;
+  background-color: #0BAA13;
+}
+
+.top-right {
+  border-radius: 0 250px 0 0;
+  
+  height: 250px;
+  width: 250px;
+  background-color: #c90a03;
+}
+
+.bottom-left {
+  border-radius: 0 0 0 250px;
+  height: 250px;
+  width: 250px;
+  top: 45%;
+  background-color: #cccc00;
+}
+
+.bottom-right {
+  border-radius: 0 0 250px 0;
+  height: 250px;
+  width: 250px;
+  top: 45%;
+  left: 45%;
+  background-color: #026397;
+}
+
+.outer-circle {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  top: 100px;
+  padding: 0;
+  background:black;
+  position: relative;
+  box-shadow: -10px -10px 5px rgba(0,0,0,0.6);
+   
+}
+
+h1 {
+  font-family: 'Michroma';
+  padding-top:5px;
+  padding-bottom:20px;
+  font-size: 30px;
+}
+
+.inner-circle {
+  border: 15px solid black;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  color:black;
+  background-color: white;
+  margin: -125px 0 0 -125px;
+}
+
+#startButton {
+  height: 24px;
+  width: 24px;
+  margin-left:25px;
+  background-color: #bfbfbf;
+  border-radius:50%;
+  border:3px solid #333;  
+}
+
+#strictButton {
+  height: 23px;
+  width: 16px;
+  margin-left:20px;
+  background-color: #bfbfbf;
+  border-radius:50%;
+  border:3px solid #333;  
+}
+
+#gameCount {
+  margin-left:15px;
+  padding-right:15px;
+  width: 45px;
+  background-color: black;
+  border:3px solid #333;  
+  border-radius:15%;
+  color: red;
+}
+
+#labelRow {
+  padding-bottom: 10px;
+}
+
+#display-bottom{
+	padding: 0 25px;	
+}
+
+.inline-div{
+	width: 35px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	margin:10px 0px 10px 0px; 
+  padding: 0px 0px 0px 0px;
+  
+}
+
+#powerToggle{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+  margin-left:15px;
+	background: #333;
+	border-radius: 10%;	
+	cursor: pointer;
+}
+
+#toggle{
+	width: 25px;
+	height: 20px;
+	background:  #0074D9;
+	border-radius: 10%;
+	border:2px solid #333;	
+	box-sizing: border-box;
+	margin: 0px;
+}
+.on{
+	margin-left: 25px!important;
+}
+
+.clickable{
+	cursor: pointer;
+}
+
+.clickable:active,.clickeffect{
+	transform: translateY(1px);
+  	opacity: 0.7;
+	-webkit-box-shadow: 1px -1px 21px 10px rgba(255,255,255,0.76);
+	-moz-box-shadow: 1px -1px 21px 10px rgba(255,255,255,0.76);
+	box-shadow: 1px -1px 21px 10px rgba(255,255,255,0.76);	
+}
+
+.modal-content {
+  background:#0000ff;
+  background: rgba(0, 0, 255, .7);
+  color:#ffffff;
+  border-radius: 25px;
+}
+
+.modal {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display:table;
+  
+}
+
+button {
+  background:#0066ff;
+  color:white
+  }
+
