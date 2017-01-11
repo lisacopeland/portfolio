@@ -7,6 +7,14 @@ body {
     font-family: 'Lora', serif;
     }
 
+#text {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 h1 {
   padding-top:45px;
 }
@@ -24,6 +32,8 @@ h2 {
   z-index: 2;
   transition: all 200ms ease-in;
   transform: scale(1.1);
+  color : white;
+      
 }
 
 .navbar-inverse {
